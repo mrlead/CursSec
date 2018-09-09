@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:CursSec"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Core.xaml"/>
+                <ResourceDictionary Source="Icons.xaml"/>
+                <ResourceDictionary Source="Brushes.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
